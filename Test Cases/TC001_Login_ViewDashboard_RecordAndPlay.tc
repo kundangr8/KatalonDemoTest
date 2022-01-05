@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Login_ViewDashboard_RecordAndPlay</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a439d22-e736-4f28-ba7c-38519ee948af</testCaseGuid>
+</TestCaseEntity>
