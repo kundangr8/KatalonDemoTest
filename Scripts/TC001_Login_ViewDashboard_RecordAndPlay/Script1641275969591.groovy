@@ -18,36 +18,27 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //open browser 
-
 WebUI.openBrowser('')
 
 // Navigate to URl
-
 WebUI.navigateToUrl('https://portal-buzz.asgard.capiter.io/superlogin')
 
 // click to entermailmobiletextbox
-
 WebUI.click(findTestObject('Object Repository/Capiter_Dashboard_OrderTab/Page_Capiter Dashboard/input_Email  Mobile_txtMobileEmail'))
 
 //set user name 
-
-WebUI.setText(findTestObject('Object Repository/Capiter_UsersTab_User_Manual/Page_Capiter Dashboard/input_Email  Mobile_txtMobileEmail'),  '01001644120')
-
+WebUI.setText(findTestObject('Object Repository/Capiter_UsersTab_User_Manual/Page_Capiter Dashboard/input_Email  Mobile_txtMobileEmail'), 
+    '01001644120')
 
 // click to enter password text box
-
 WebUI.click(findTestObject('Object Repository/Capiter_UsersTab_User_Manual/Page_Capiter Dashboard/input_Email  Mobile_txtPassword'))
 
-
 // Set Password
-
-WebUI.setText(findTestObject
-	('Object Repository/Capiter_UsersTab_User_Manual/Page_Capiter Dashboard/input_Email  Mobile_txtPassword'),'aeHFOx8jV/A=')
+WebUI.setText(findTestObject('Object Repository/Capiter_UsersTab_User_Manual/Page_Capiter Dashboard/input_Email  Mobile_txtPassword'), 
+    'aeHFOx8jV/A=')
 
 // click on login
-
 WebUI.click(findTestObject('Object Repository/Capiter_UsersTab_User_Manual/Page_Capiter Dashboard/button_login'))
 
-
-
 WebUI.closeBrowser()
+
