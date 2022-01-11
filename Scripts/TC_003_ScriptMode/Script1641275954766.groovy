@@ -23,20 +23,21 @@ WebUI.navigateToUrl('https://portal-buzz.asgard.capiter.io/superlogin')
 
 WebUI.click(findTestObject('Object Repository/Capiter_Dashboard_OrderTab/Page_Capiter Dashboard/input_Email  Mobile_txtMobileEmail'))
 
-WebUI.setText(findTestObject('Object Repository/Capiter_Dashboard_OrderTab/Page_Capiter Dashboard/input_Email  Mobile_txtMobileEmail'),
-	'01001644120')
+WebUI.setText(findTestObject('Object Repository/Capiter_Dashboard_OrderTab/Page_Capiter Dashboard/input_Email  Mobile_txtMobileEmail'), 
+    '01001644120')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Capiter_Dashboard_OrderTab/Page_Capiter Dashboard/input_Email  Mobile_txtPassword'),
-	'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Capiter_Dashboard_OrderTab/Page_Capiter Dashboard/input_Email  Mobile_txtPassword'), 
+    'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Object Repository/Capiter_Dashboard_OrderTab/Page_Capiter Dashboard/button_login'))
+
+WebUI.delay(4)
 
 WebUI.click(findTestObject('Object Repository/Capiter_Dashboard_OrderTab/Page_Capiter Dashboard/span_Dashboard'))
 
 // not run annotation 
-
 not_run: WebUI.click(findTestObject('Object Repository/Capiter_Dashboard_OrderTab/Page_Capiter Dashboard/span_Orders'))
 
 //WebUI.click(findTestObject('Object Repository/Capiter_Dashboard_OrderTab/Page_Capiter Dashboard/mat-icon_remove_red_eye'))
+WebUI.closeBrowser()
 
- WebUI.closeBrowser()
